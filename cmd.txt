@@ -1,0 +1,163 @@
+    1  git config --list --global
+    2  git config user.name=jaeyoung.ahn
+    3  git config --list --global
+    4  git config --global user.name jaeyoung.ahn
+    5  git config --list --global
+    6  git config --global user.name 안재영
+    7  git config --list --global
+    8  git status
+    9  git init 
+   10  git status
+   11  help
+   12  git add .
+   13  git status
+   14  git commit -m "im.md add"
+   15  git status
+   16  git branch
+   17  git log
+   18  git log --oneline 
+   19  git status
+   20  git status
+   21  git status
+   22  git status
+   23  git add .
+   24  git status
+   25  git commit -a 
+   26  history
+   27  history >
+   28  history > cmd.txt
+   29  git status
+   30  git restore .
+   31  git status
+   32  touch psd1.md
+   33  git config
+   34  git config --list
+   35  git status
+   36  git add .
+   37  git add .
+   38  git commit 
+   39  git log
+   40  git log --oneling
+   41  git log --oneline
+   42  git log --oneline --graph
+   43  gitk
+   44  git log --oneline
+   45  git reset --hard 9944b3d
+   46  git reflog
+   47  git reset --hard HEAD@{1}
+   48  ls
+   49  git status
+   50  git branch test001
+   51  ls
+   52  git status
+   53  git branch
+   54  git checkout test001
+   55  git log --oneline
+   56  git checkout 751af75
+   57  git commit -am "add xyz"
+   58  git checkout 751af75
+   59  git commit -am "add xyz"
+   60  git log --oneline
+   61  git commit -am "add xyz"
+   62  git status 
+   63  git status
+   64  git log --oneline --graph
+   65  git log --oneline --graph --all
+   66  git reflog
+   67  git checkout 07b566c
+   68  git switch -c test002
+   69  git branch -d test002
+   70  git branch -D test002
+   71  git branch test001
+   72  git checkout test001
+   73  git checkout -b test002
+   74  git branch
+   75  git commit -am "text kildong.hong"
+   76  touch psd1.md
+   77  git add .
+   78  git commit -m "add psd1.md"
+   79  git merge test001
+   80  git reflog
+   81  git reset --hard HEAD@{6}
+   82  touch psd2.md
+   83  git add .
+   84  git commit -m "add psd2.md"
+   85  git add .
+   86  git commit -m "edit psd1.md > master"
+   87  git checkout test001
+   88  git add .
+   89  git commit -m "edit psd1.md > test001"
+   90  git log --oneline --graph --all --decorate
+   91  git status
+   92  git add .
+   93  git commit
+   94  git status
+   95  git checkout  test001
+   96  touch c01 c02 c03
+   97  git add c01
+   98  git commit -m "add c01"
+   99  git add c02 
+  100  git commit -m "add c02"
+  101  git add c03
+  102  git commit -m "add c03"
+  103  git status
+  104  git log
+  105  git log --oneline --all
+  106  git cherry-pick 4fe9899 aef6e07
+  107  touch r01 r02 r03
+  108  git add r01
+  109  git commit -m "add r01"
+  110  git add r02
+  111  git commit -m "add r02"
+  112  git add r03
+  113  git commit -m "add r03"
+  114  git status
+  115  touch r04
+  116  git add .
+  117  git commit -m "add r04"
+  118  git checkout rebase001
+  119* git rebase
+  120  git checkout -b rebase002
+  121  touch r05 r06 r07
+  122  git add r05
+  123  git commit -m "add r05"
+  124  git add r06
+  125  git commit -m "add r06"
+  126  git add r07
+  127  git commit -m "add r07"
+  128  git stauts
+  129  git status
+  130  touch r08
+  131  git add r08
+  132  git commit -m "add r08"
+  133  git status
+  134  touch r09 r10 r11
+  135  git add r09
+  136  git commit -m "add r09"
+  137  git add r10
+  138  git commit -m "add r10"
+  139  git add r11
+  140  git commit -m "add r11"
+  141  git status
+  142  git commit -m "edit r06 > master"
+  143  git commit -m "edit r06 > master"
+  144  git checkout rebase003
+  145  git add .
+  146  git commit -m "edit r06 > rebase"
+  147  git commit -m "edit r06 > master"
+  148  git commit -m "edit r06 > rebase"
+  149  git add .
+  150  git commit -m "edit r06 > rebase"
+  151  git status
+  152  git add .
+  153  git commit
+  154  git status
+  155  git rebase --continue
+  156  git checkout master
+  157  git remote -v
+  158  git remote add origin https://github.com/ahnjaeyoung10074/test_mirero.git
+  159  git remote -v
+  160  git branch -M main
+  161  git branch
+  162  git push -u origin main
+  163  history > cmd.txt
